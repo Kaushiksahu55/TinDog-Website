@@ -1,0 +1,155 @@
+/** Title Section and Navbar Section **/
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+}
+.title-font{
+   font-family: 'Montserrat-Black', sans-serif;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   font-weight: bold;
+   color: white;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 1.2rem
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 2% 10% 7% 10%;
+}
+
+.navbar{
+  padding: 0 0 3.5rem;
+}
+
+.title-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 20%;
+  position: absolute;
+  right: 25%;
+}
+@media (max-width: 990px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    width: 60%;
+  }
+}
+.rotate{
+  transform: rotate(25deg);
+}
+@media (max-width: 990px){
+  .rotate{
+    transform: rotate(0);
+  }
+}
+
+/**Feature Section **/
+#features{
+  text-align: center;
+  padding: 10% 7%;
+  background-color: white;
+  position: relative;
+}
+.main-line{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+}
+.feature-para{
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+}
+.fas{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+/**Testimonials-Section **/
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-text{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/**Press Section **/
+#press-section{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-img{
+  width: 15%;
+  margin: 40px;
+  margin-bottom: 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/**Pricing Section **/
+
+#pricing-section{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-main-title{
+  text-align: center;
+  font-family: Montserrat;
+}
+.pricing-title{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.pricing-para{
+  color: #8f8f8f;
+}
+/** Call to action Section **/
+#cta{
+  background-color: #ff4c68;
+  padding: 3% 15%;
+  text-align: center;
+
+}
+.cta-button{
+  margin: 10px;
+}
+
+/**Footer Section **/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px 20px;
+}
